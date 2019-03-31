@@ -1,0 +1,152 @@
+
+/*STYLING THE CONTAINER, HEADER AND NAVIGATION MENUS*/
+
+* { 
+    box-sizing: border-box;          
+	margin: 0;
+	padding: 0;
+
+}
+
+#container {
+    
+    width: 1200px;
+    height: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+    font-family: sans-serif;
+
+
+}
+
+#header{
+	background-color: black;
+	width: 1180;
+	padding: 20px 10px;
+	color: white;
+
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 50px;
+
+}
+
+#Navbar {
+    background-color:  #ff6600;
+    width: 1200px;
+    height: 50px;
+  
+}
+#Navbar ul li {
+	float: left;
+	width: 200px;
+	padding: 15px 0 ;
+	text-align: center;
+	list-style: none;
+
+
+}
+
+#Navbar ul li:hover {
+	background-color: #1500ff ;
+	color: #fff;
+	
+}
+
+#Navbar a {
+	color: black;
+}
+
+
+/* STYLING THE LEFT AND RIGHT SECTION */
+
+#left{
+	width: 800px;
+	height: 600px;
+	float: left ;
+}
+#post{
+	margin: 20px;
+
+}
+.title{
+	background-color: black;
+	padding: 15px 10px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+
+
+}
+
+.description {
+	background-color: #00e9ff;
+	padding: 20px;
+	height: 200;
+
+}
+
+#right{
+	width: 360px ;
+	height: 600px;
+	float: left;
+	padding: 20px;
+}
+#right h2 {
+	text-align: center;
+
+}
+#latest_post_group{
+	margin: 10px 0px;
+
+}
+.latest_post{
+	background-color: black;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 10px 0px;
+	color: white;
+
+}
+
+/* STYLING NEWSLETTER AND FOOTER */
+
+.news_letter_head {
+	text-align: center;
+	font-size: 25px;
+
+}
+
+input[type="text"] {
+	 width: 350px; 
+	 height: 30px;
+
+}
+input[type="submit"] {
+	width: 355px;
+	margin: 10px 0;
+	background-color: black;
+	padding: 10px 0;
+	color: white;
+	border: none;
+	font-size: 20px;
+
+}
+
+input[type="submit"]:hover {
+	background-color: #2e00ff;
+	cursor: pointer;
+}
+
+div #footer {
+	color: white;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	top: 100px;
+	padding: 20px;
+
+}
+}
